@@ -2,11 +2,11 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: nginx-deployment
-  namespace: argocd
+  namespace: sample-application
   labels:
     app: nginx
 spec:
-  replicas: 10
+  replicas: 5
   selector:
     matchLabels:
       app: nginx
