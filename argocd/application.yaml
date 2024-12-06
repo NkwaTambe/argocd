@@ -10,7 +10,6 @@ spec:
     targetRevision: HEAD
     path: argocd
     
-
   syncPolicy:
     syncOptions:
     - CreateNamespace=true
