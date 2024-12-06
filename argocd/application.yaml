@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: demo
+  name: argocd-application
   namespace: sample-application
 spec:
   project: default
